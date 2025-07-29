@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+  </head>
+  <body>
+    
+    <form class="container">
+  <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">Email address</label>
+    <input type="email" class="form-control" id="Email" aria-describedby="emailHelp">
+  </div>
+  <div class="mb-3">
+    <label for="exampleInputPassword1" class="form-label">Password</label>
+    <input type="password" class="form-control" id="Password">
+  </div>
+  <div class="mb-3 form-check">
+    <input type="checkbox" class="form-check-input" id="checkbox">
+    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+  </div>
+  <button onclick="test()" type="submit" class="btn btn-primary">Submit</button>
+</form>
+<script>
+    function test() {
+        var a = document.getElementById('Email').value.trim();
+        var b = document.getElementById('Password').value.trim();
+        var c = document.getElementById('checkbox');
+
+        if(a =="" || b =="" || !c.checked) {
+            window.alert('Invalid Input');
+    }else{
+        window.alert('succes Input');
+    }
+    }
+    
+</script>
+    <h1 class="mt-5">
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span id="time"></span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        <span id="date"></span>
+    </h1>
+    <script>
+        setInterval(() =>
+        document.getElementById('time').innerHTML = new Date().toLocaleTimeString());
+        document.getElementById('date').innerHTML = new Date().toLocaleDateString ();
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" ></script>
+  </body>
+</html>

@@ -1,0 +1,603 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <header class="shadow sticky-top">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container">
+                <a class="navbar-brand" href="index.html"><img src="images/logo.webp" width="50" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="shope.html">Shop</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Categories</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="sign-up.html">Sign Up</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="login.html">Login</a>
+                        </li>
+
+                    </ul>
+                    <a href=""> <img src="images/cart.png" alt="" width="40" height="40" class="pe-2"></a>
+                    <form class="d-flex" role="search">
+
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section>
+        <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/slider1.jpg" class="d-block w-100" alt="..." height="450">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/slider2.jpg" class="d-block w-100" alt="..." height="450">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/slider3.jpg" class="d-block w-100" alt="..." height="450">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+
+    <section>
+        <div class="container-fluid py-3">
+            <div class="container">
+                <h1>Top Sale Product</h1>
+                <div class="row row-cols-1 row-cols-md-4 g-2">
+                    <div class="col">
+                        <div class="card position-relative">
+                            <span
+                                class="position-absolute bg-success px-2 py-1 w-25 text-light text-center fw-bold rounded-pill m-2">
+                                New </span>
+                            <a class="text-decoration-none" href="">
+                                <img src="images/product.jpg" class="card-img-top" alt="..." height="250">
+                            </a>
+
+                            <div class="card-body">
+                                <h5 class="card-title text-center"><a class="text-decoration-none text-danger"
+                                        href="single-page.html">Product Name</a></h5>
+                                <h5 class="text-center">Tk 1500 <del>Tk 2000</del></h5>
+                                <div class="d-flex justify-content-evenly">
+                                    <button type="button" class="btn btn-outline-info border-dark">
+                                        <a href="single-product.html">
+                                            <img src="images/view.png" alt="" width="25" title="view product">
+                                        </a>
+                                    </button>
+                                    <button type="button" class="btn btn-outline-info border-dark">
+                                        <img src="images/cart3.png" alt="" width="25">
+                                    </button>
+                                    <button type="button" class="btn btn-outline-info border-dark">
+                                        <img src="images/tranfer.png" alt="" width="25">
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card position-relative">
+                            <span
+                                class="position-absolute bg-success px-2 py-1 w-25 text-light text-center fw-bold rounded-pill m-2">
+                                New </span>
+                            <a class="text-decoration-none" href="">
+                                <img src="images/product.jpg" class="card-img-top" alt="..." height="250">
+                            </a>
+
+                            <div class="card-body">
+                                <h5 class="card-title text-center"><a class="text-decoration-none text-danger"
+                                        href="single-page.html">Product Name</a></h5>
+                                <h5 class="text-center">Tk 1500 <del>Tk 2000</del></h5>
+                                <div class="d-flex justify-content-evenly">
+                                    <button type="button" class="btn btn-outline-info border-dark">
+                                        <a href="single-product.html">
+                                            <img src="images/view.png" alt="" width="25" title="view product">
+                                        </a>
+                                    </button>
+                                    <button type="button" class="btn btn-outline-info border-dark">
+                                        <img src="images/cart3.png" alt="" width="25">
+                                    </button>
+                                    <button type="button" class="btn btn-outline-info border-dark">
+                                        <img src="images/tranfer.png" alt="" width="25">
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card position-relative">
+                            <span
+                                class="position-absolute bg-success px-2 py-1 w-25 text-light text-center fw-bold rounded-pill m-2">
+                                New </span>
+                            <a class="text-decoration-none" href="">
+                                <img src="images/product.jpg" class="card-img-top" alt="..." height="250">
+                            </a>
+
+                            <div class="card-body">
+                                <h5 class="card-title text-center"><a class="text-decoration-none text-danger"
+                                        href="single-page.html">Product Name</a></h5>
+                                <h5 class="text-center">Tk 1500 <del>Tk 2000</del></h5>
+                                <div class="d-flex justify-content-evenly">
+                                    <button type="button" class="btn btn-outline-info border-dark">
+                                        <a href="single-product.html">
+                                            <img src="images/view.png" alt="" width="25" title="view product">
+                                        </a>
+                                    </button>
+                                    <button type="button" class="btn btn-outline-info border-dark">
+                                        <img src="images/cart3.png" alt="" width="25">
+                                    </button>
+                                    <button type="button" class="btn btn-outline-info border-dark">
+                                        <img src="images/tranfer.png" alt="" width="25">
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card position-relative">
+                            <span
+                                class="position-absolute bg-success px-2 py-1 w-25 text-light text-center fw-bold rounded-pill m-2">
+                                New </span>
+                            <a class="text-decoration-none" href="">
+                                <img src="images/product.jpg" class="card-img-top" alt="..." height="250">
+                            </a>
+
+                            <div class="card-body">
+                                <h5 class="card-title text-center"><a class="text-decoration-none text-danger"
+                                        href="single-page.html">Product Name</a></h5>
+                                <h5 class="text-center">Tk 1500 <del>Tk 2000</del></h5>
+                                <div class="d-flex justify-content-evenly">
+                                    <button type="button" class="btn btn-outline-info border-dark">
+                                        <a href="single-product.html">
+                                            <img src="images/view.png" alt="" width="25" title="view product">
+                                        </a>
+                                    </button>
+                                    <button type="button" class="btn btn-outline-info border-dark">
+                                        <img src="images/cart3.png" alt="" width="25">
+                                    </button>
+                                    <button type="button" class="btn btn-outline-info border-dark">
+                                        <img src="images/tranfer.png" alt="" width="25">
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="btn btn-primary mt-4 m-auto" href="#" role="button">View All Product</a>
+
+
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid py-3">
+            <div class="container">
+                <h1>Top Sale Product</h1>
+                <div class="row row-cols-1 row-cols-md-4 g-2">
+                    <div class="col">
+                        <div class="card position-relative">
+                            <span
+                                class="position-absolute bg-success px-2 py-1 w-25 text-light text-center fw-bold rounded-pill m-2">
+                                New </span>
+                            <a class="text-decoration-none" href="">
+                                <img src="images/product.jpg" class="card-img-top" alt="..." height="250">
+                            </a>
+
+                            <div class="card-body">
+                                <h5 class="card-title text-center"><a class="text-decoration-none text-danger"
+                                        href="single-page.html">Product Name</a></h5>
+                                <h5 class="text-center">Tk 1500 <del>Tk 2000</del></h5>
+                                <div class="d-flex justify-content-evenly">
+                                    <button type="button" class="btn btn-outline-info border-dark">
+                                        <a href="single-product.html">
+                                            <img src="images/view.png" alt="" width="25" title="view product">
+                                        </a>
+                                    </button>
+                                    <button type="button" class="btn btn-outline-info border-dark">
+                                        <img src="images/cart3.png" alt="" width="25">
+                                    </button>
+                                    <button type="button" class="btn btn-outline-info border-dark">
+                                        <img src="images/tranfer.png" alt="" width="25">
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card position-relative">
+                            <span
+                                class="position-absolute bg-success px-2 py-1 w-25 text-light text-center fw-bold rounded-pill m-2">
+                                New </span>
+                            <a class="text-decoration-none" href="">
+                                <img src="images/product.jpg" class="card-img-top" alt="..." height="250">
+                            </a>
+
+                            <div class="card-body">
+                                <h5 class="card-title text-center"><a class="text-decoration-none text-danger"
+                                        href="single-page.html">Product Name</a></h5>
+                                <h5 class="text-center">Tk 1500 <del>Tk 2000</del></h5>
+                                <div class="d-flex justify-content-evenly">
+                                    <button type="button" class="btn btn-outline-info border-dark">
+                                        <a href="single-product.html">
+                                            <img src="images/view.png" alt="" width="25" title="view product">
+                                        </a>
+                                    </button>
+                                    <button type="button" class="btn btn-outline-info border-dark">
+                                        <img src="images/cart3.png" alt="" width="25">
+                                    </button>
+                                    <button type="button" class="btn btn-outline-info border-dark">
+                                        <img src="images/tranfer.png" alt="" width="25">
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card position-relative">
+                            <span
+                                class="position-absolute bg-success px-2 py-1 w-25 text-light text-center fw-bold rounded-pill m-2">
+                                New </span>
+                            <a class="text-decoration-none" href="">
+                                <img src="images/product.jpg" class="card-img-top" alt="..." height="250">
+                            </a>
+
+                            <div class="card-body">
+                                <h5 class="card-title text-center"><a class="text-decoration-none text-danger"
+                                        href="single-page.html">Product Name</a></h5>
+                                <h5 class="text-center">Tk 1500 <del>Tk 2000</del></h5>
+                                <div class="d-flex justify-content-evenly">
+                                    <button type="button" class="btn btn-outline-info border-dark">
+                                        <a href="single-product.html">
+                                            <img src="images/view.png" alt="" width="25" title="view product">
+                                        </a>
+                                    </button>
+                                    <button type="button" class="btn btn-outline-info border-dark">
+                                        <img src="images/cart3.png" alt="" width="25">
+                                    </button>
+                                    <button type="button" class="btn btn-outline-info border-dark">
+                                        <img src="images/tranfer.png" alt="" width="25">
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card position-relative">
+                            <span
+                                class="position-absolute bg-success px-2 py-1 w-25 text-light text-center fw-bold rounded-pill m-2">
+                                New </span>
+                            <a class="text-decoration-none" href="">
+                                <img src="images/product.jpg" class="card-img-top" alt="..." height="250">
+                            </a>
+
+                            <div class="card-body">
+                                <h5 class="card-title text-center"><a class="text-decoration-none text-danger"
+                                        href="single-page.html">Product Name</a></h5>
+                                <h5 class="text-center">Tk 1500 <del>Tk 2000</del></h5>
+                                <div class="d-flex justify-content-evenly">
+                                    <button type="button" class="btn btn-outline-info border-dark">
+                                        <a href="single-product.html">
+                                            <img src="images/view.png" alt="" width="25" title="view product">
+                                        </a>
+                                    </button>
+                                    <button type="button" class="btn btn-outline-info border-dark">
+                                        <img src="images/cart3.png" alt="" width="25">
+                                    </button>
+                                    <button type="button" class="btn btn-outline-info border-dark">
+                                        <img src="images/tranfer.png" alt="" width="25">
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="btn btn-primary mt-4 m-auto" href="#" role="button">View All Product</a>
+
+
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid py-3">
+            <div class="container">
+                <h1>Top Sale Product</h1>
+                <div class="row row-cols-1 row-cols-md-4 g-2">
+                    <div class="col">
+                        <div class="card position-relative">
+                            <span
+                                class="position-absolute bg-success px-2 py-1 w-25 text-light text-center fw-bold rounded-pill m-2">
+                                New </span>
+                            <a class="text-decoration-none" href="">
+                                <img src="images/product.jpg" class="card-img-top" alt="..." height="250">
+                            </a>
+
+                            <div class="card-body">
+                                <h5 class="card-title text-center"><a class="text-decoration-none text-danger"
+                                        href="single-page.html">Product Name</a></h5>
+                                <h5 class="text-center">Tk 1500 <del>Tk 2000</del></h5>
+                                <div class="d-flex justify-content-evenly">
+                                    <button type="button" class="btn btn-outline-info border-dark">
+                                        <a href="single-product.html">
+                                            <img src="images/view.png" alt="" width="25" title="view product">
+                                        </a>
+                                    </button>
+                                    <button type="button" class="btn btn-outline-info border-dark">
+                                        <img src="images/cart3.png" alt="" width="25">
+                                    </button>
+                                    <button type="button" class="btn btn-outline-info border-dark">
+                                        <img src="images/tranfer.png" alt="" width="25">
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card position-relative">
+                            <span
+                                class="position-absolute bg-success px-2 py-1 w-25 text-light text-center fw-bold rounded-pill m-2">
+                                New </span>
+                            <a class="text-decoration-none" href="">
+                                <img src="images/product.jpg" class="card-img-top" alt="..." height="250">
+                            </a>
+
+                            <div class="card-body">
+                                <h5 class="card-title text-center"><a class="text-decoration-none text-danger"
+                                        href="single-page.html">Product Name</a></h5>
+                                <h5 class="text-center">Tk 1500 <del>Tk 2000</del></h5>
+                                <div class="d-flex justify-content-evenly">
+                                    <button type="button" class="btn btn-outline-info border-dark">
+                                        <a href="single-product.html">
+                                            <img src="images/view.png" alt="" width="25" title="view product">
+                                        </a>
+                                    </button>
+                                    <button type="button" class="btn btn-outline-info border-dark">
+                                        <img src="images/cart3.png" alt="" width="25">
+                                    </button>
+                                    <button type="button" class="btn btn-outline-info border-dark">
+                                        <img src="images/tranfer.png" alt="" width="25">
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card position-relative">
+                            <span
+                                class="position-absolute bg-success px-2 py-1 w-25 text-light text-center fw-bold rounded-pill m-2">
+                                New </span>
+                            <a class="text-decoration-none" href="">
+                                <img src="images/product.jpg" class="card-img-top" alt="..." height="250">
+                            </a>
+
+                            <div class="card-body">
+                                <h5 class="card-title text-center"><a class="text-decoration-none text-danger"
+                                        href="single-page.html">Product Name</a></h5>
+                                <h5 class="text-center">Tk 1500 <del>Tk 2000</del></h5>
+                                <div class="d-flex justify-content-evenly">
+                                    <button type="button" class="btn btn-outline-info border-dark">
+                                        <a href="single-product.html">
+                                            <img src="images/view.png" alt="" width="25" title="view product">
+                                        </a>
+                                    </button>
+                                    <button type="button" class="btn btn-outline-info border-dark">
+                                        <img src="images/cart3.png" alt="" width="25">
+                                    </button>
+                                    <button type="button" class="btn btn-outline-info border-dark">
+                                        <img src="images/tranfer.png" alt="" width="25">
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card position-relative">
+                            <span
+                                class="position-absolute bg-success px-2 py-1 w-25 text-light text-center fw-bold rounded-pill m-2">
+                                New </span>
+                            <a class="text-decoration-none" href="">
+                                <img src="images/product.jpg" class="card-img-top" alt="..." height="250">
+                            </a>
+
+                            <div class="card-body">
+                                <h5 class="card-title text-center"><a class="text-decoration-none text-danger"
+                                        href="single-page.html">Product Name</a></h5>
+                                <h5 class="text-center">Tk 1500 <del>Tk 2000</del></h5>
+                                <div class="d-flex justify-content-evenly">
+                                    <button type="button" class="btn btn-outline-info border-dark">
+                                        <a href="single-product.html">
+                                            <img src="images/view.png" alt="" width="25" title="view product">
+                                        </a>
+                                    </button>
+                                    <button type="button" class="btn btn-outline-info border-dark">
+                                        <img src="images/cart3.png" alt="" width="25">
+                                    </button>
+                                    <button type="button" class="btn btn-outline-info border-dark">
+                                        <img src="images/tranfer.png" alt="" width="25">
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="btn btn-primary mt-4 m-auto" href="#" role="button">View All Product</a>
+
+
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid py-3">
+            <div class="container">
+                <h1>Top Sale Product</h1>
+                <div class="row row-cols-1 row-cols-md-4 g-2">
+                    <div class="col">
+                        <div class="card position-relative">
+                            <span
+                                class="position-absolute bg-success px-2 py-1 w-25 text-light text-center fw-bold rounded-pill m-2">
+                                New </span>
+                            <a class="text-decoration-none" href="">
+                                <img src="images/product.jpg" class="card-img-top" alt="..." height="250">
+                            </a>
+
+                            <div class="card-body">
+                                <h5 class="card-title text-center"><a class="text-decoration-none text-danger"
+                                        href="single-page.html">Product Name</a></h5>
+                                <h5 class="text-center">Tk 1500 <del>Tk 2000</del></h5>
+                                <div class="d-flex justify-content-evenly">
+                                    <button type="button" class="btn btn-outline-info border-dark">
+                                        <a href="single-product.html">
+                                            <img src="images/view.png" alt="" width="25" title="view product">
+                                        </a>
+                                    </button>
+                                    <button type="button" class="btn btn-outline-info border-dark">
+                                        <img src="images/cart3.png" alt="" width="25">
+                                    </button>
+                                    <button type="button" class="btn btn-outline-info border-dark">
+                                        <img src="images/tranfer.png" alt="" width="25">
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card position-relative">
+                            <span
+                                class="position-absolute bg-success px-2 py-1 w-25 text-light text-center fw-bold rounded-pill m-2">
+                                New </span>
+                            <a class="text-decoration-none" href="">
+                                <img src="images/product.jpg" class="card-img-top" alt="..." height="250">
+                            </a>
+
+                            <div class="card-body">
+                                <h5 class="card-title text-center"><a class="text-decoration-none text-danger"
+                                        href="single-page.html">Product Name</a></h5>
+                                <h5 class="text-center">Tk 1500 <del>Tk 2000</del></h5>
+                                <div class="d-flex justify-content-evenly">
+                                    <button type="button" class="btn btn-outline-info border-dark">
+                                        <a href="single-product.html">
+                                            <img src="images/view.png" alt="" width="25" title="view product">
+                                        </a>
+                                    </button>
+                                    <button type="button" class="btn btn-outline-info border-dark">
+                                        <img src="images/cart3.png" alt="" width="25">
+                                    </button>
+                                    <button type="button" class="btn btn-outline-info border-dark">
+                                        <img src="images/tranfer.png" alt="" width="25">
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card position-relative">
+                            <span
+                                class="position-absolute bg-success px-2 py-1 w-25 text-light text-center fw-bold rounded-pill m-2">
+                                New </span>
+                            <a class="text-decoration-none" href="">
+                                <img src="images/product.jpg" class="card-img-top" alt="..." height="250">
+                            </a>
+
+                            <div class="card-body">
+                                <h5 class="card-title text-center"><a class="text-decoration-none text-danger"
+                                        href="single-page.html">Product Name</a></h5>
+                                <h5 class="text-center">Tk 1500 <del>Tk 2000</del></h5>
+                                <div class="d-flex justify-content-evenly">
+                                    <button type="button" class="btn btn-outline-info border-dark">
+                                        <a href="single-product.html">
+                                            <img src="images/view.png" alt="" width="25" title="view product">
+                                        </a>
+                                    </button>
+                                    <button type="button" class="btn btn-outline-info border-dark">
+                                        <img src="images/cart3.png" alt="" width="25">
+                                    </button>
+                                    <button type="button" class="btn btn-outline-info border-dark">
+                                        <img src="images/tranfer.png" alt="" width="25">
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card position-relative">
+                            <span
+                                class="position-absolute bg-success px-2 py-1 w-25 text-light text-center fw-bold rounded-pill m-2">
+                                New </span>
+                            <a class="text-decoration-none" href="">
+                                <img src="images/product.jpg" class="card-img-top" alt="..." height="250">
+                            </a>
+
+                            <div class="card-body">
+                                <h5 class="card-title text-center"><a class="text-decoration-none text-danger"
+                                        href="single-page.html">Product Name</a></h5>
+                                <h5 class="text-center">Tk 1500 <del>Tk 2000</del></h5>
+                                <div class="d-flex justify-content-evenly">
+                                    <button type="button" class="btn btn-outline-info border-dark">
+                                        <a href="single-product.html">
+                                            <img src="images/view.png" alt="" width="25" title="view product">
+                                        </a>
+                                    </button>
+                                    <button type="button" class="btn btn-outline-info border-dark">
+                                        <img src="images/cart3.png" alt="" width="25">
+                                    </button>
+                                    <button type="button" class="btn btn-outline-info border-dark">
+                                        <img src="images/tranfer.png" alt="" width="25">
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="btn btn-primary mt-4 m-auto" href="#" role="button">View All Product</a>
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+ <footer class="container-fluid bg-info d-flex justify-content-between align-items-center py-2 ">
+        <span class="text-light m-auto">Al Rights Reserved &copy; Raj TTC
+
+        </span>
+        <div class="m-auto">
+            <button type="button" class="btn btn-outline-info  rounded-circle">
+                <img src="images/icons8-facebook.svg" alt="" width="25" height="25">
+            </button>
+            <button type="button" class="btn btn-outline-info  rounded-circle">
+                <img src="images/icons8-facebook.svg" alt="" width="25" height="25">
+            </button>
+            <button type="button" class="btn btn-outline-info  rounded-circle">
+                <img src="images/icons8-facebook.svg" alt="" width="25" height="25">
+            </button>
+            <button type="button" class="btn btn-outline-info  rounded-circle">
+                <img src="images/icons8-facebook.svg" alt="" width="25" height="25">
+            </button>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
