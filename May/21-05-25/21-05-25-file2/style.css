@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 10;
+}
+h1{
+    color: chartreuse;
+    text-align: center;
+    background-color: black;
+    margin: 5px;0:
+}
+
+.aa{
+    color: aqua;
+    text-align: center;
+     background-color: black;
+}
+
+.bb{
+    color: rgb(15, 209, 25);
+    text-align: center;
+     background-color: black;
+}
+
+.cc{
+    color: rgb(209, 126, 18);
+    text-align: center;
+     background-color: black;
+}
+
+.main-box{
+    width: 250px;
+    height: 250px;
+   /* border: 6px solid green; */
+   border-width: 60;
+   border-style: groove;
+   /* background-color: green; */
+   border-color: green;
+   
+}

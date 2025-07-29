@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    width: fit-content;
+    margin: auto;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+}
+
+nav ul li{
+    margin: 0;
+}
+
+nav ul li a{
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    transition: .5s;
+}
+nav ul li a:hover{
+    background-color: red;
+    
+}
+
+h1{
+    text-align: center;
+    background-color: rgb(212, 20, 20);
+   
+}

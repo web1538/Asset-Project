@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box{
+    width: 300px;
+    height: 400px;
+    border: 2px solid;
+    border-radius: 15px;
+    margin: auto;
+    margin-top: 50px;
+    overflow: hidden;
+    padding: 10px;
+    
+}
+
+.box2{
+    background-color: brown;
+}
+
+.name-title{
+   
+    margin: 20px;
+    text-align: justify;
+    
+}

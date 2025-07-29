@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main-box{
+    display: flex;
+}
+
+.main-box1{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(27, 17, 117);
+    float: left;
+}
+
+.main-box2{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(3, 1, 19);
+    float: left;
+}
+
+.main-box3{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(3, 196, 51);
+    float: left;
+    
+}
+
+.main-box4{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(194, 9, 64);
+    float: left;
+    
+}

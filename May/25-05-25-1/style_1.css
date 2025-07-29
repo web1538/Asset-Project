@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box-base{
+    width: 100px;
+    height: 100px;
+    border: 2px solid;
+   margin: auto;
+   
+}
+.box1{
+    background-color: aqua;
+    
+}
+
+.box2{
+    background-color: rgb(34, 8, 107);
+}
+
+.box3{
+    background-color: rgb(11, 161, 36);
+}
+
+.box4{
+    background-color: rgb(3, 53, 53);
+}

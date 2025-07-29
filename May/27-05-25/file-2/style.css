@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(54, 51, 51);
+    position: relative;
+}
+
+.contain-box{
+    position: absolute;
+    width: 600px;
+    height: 200px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 10px;
+    color: white;
+    
+    
+}
+.content-text{
+    margin: 15px 0;
+}
+ .header-btn{
+    padding: 8px 10px;
+    background-color: #ff6f0f;
+    color: white;
+    border: none;
+ }
+span{
+    background-color: white;
+    padding: 4px;
+    border-radius: 50%;
+    color: #ff6f0f;
+    font-size: 14px;
+}
