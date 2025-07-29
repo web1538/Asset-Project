@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+   
+        <label>Name:</label><br>
+        <input id="u_name" type="text" placeholder="Enter Your Name"><br><br>
+        <label>Mobile:</label><br>
+        <input id="u_cell" type="text" placeholder="Enter Your Mobile Number"><br><br>
+        <label>Email:</label><br>
+        <input id="u_email" type="text" placeholder="Enter Your Email Address"><br><br>
+
+        <button onclick="info()">submit</button>
+        <h4>Your Infomation</h4>
+        <h5 id="user_name"></h5>
+        <h5 id="user_cell"></h5>
+        <h5 id="user_email"></h5>
+
+        <script>
+            function info(){
+                var a= document.getElementById('u_name').value;
+                var u_cell = document.getElementById('u_cell').value;
+                var u_email = document.getElementById('u_email').value;
+
+                document.getElementById('user_name').innerHTML = u_name;
+                document.getElementById('user_cell').innerHTML = u_cell;
+                document.getElementById('user_email').innerHTML = u_email;
+            }
+            if(a =="" || !b.checked){
+                alert('Fill up All Fields with Checkbox');
+            }else{
+                window.alert("Form Submited")
+            }
+        </script>
+
+</body>
+</html>

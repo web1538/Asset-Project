@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <!-- <style type="text/css">
+        input{
+            width: 75%;
+            padding: 10px;
+            margin-left: 25%;
+            
+        }
+        label{
+            margin-left: 25%;
+        }
+        textarea{
+            margin-left: 25%;
+        }
+    </style> -->
+</head>
+<body>
+   <!-- <form onsubmit="validatecheckbox()">
+     <label> Name</label><br>
+    <input id="username" type="text" placeholder="Enter your name"><br><br>
+    <label> Mobile Number</label><br>
+    <input id="usercell" type="text" placeholder="Enter your cell"><br><br>
+    <label> Email</label><br>
+    <input id="useremail" type="text" placeholder="Enter your email"><br><br>
+    <label> your information</label><br>
+  <textarea id="exampleFormControlTextarea1" ></textarea><br><br>
+  <label> Remember me</label>
+  <input type="checkbox" id="checkbox"><br><br>
+
+    <button type="submit">Click</button>
+   </form>
+
+    <script> 
+
+        function validatecheckbox(){
+            var a = document.getElementById('username').value.trim();
+            var b = document.getElementById('usercell').value.trim();
+            var c = document.getElementById('useremail').value.trim();
+            var d = document.getElementById('exampleFormControlTextarea1').value.trim();
+            var e = document.getElementById('checkbox').value.trim();
+            if( a == "" || b =="" || c =="" || d =="" || e =="" ){
+                window.alert('Invalid input');
+            }else{
+                window.alert('success input');
+            }
+        }
+    </script> -->
+   
+   <form onsubmit="validatecheckbox()">
+    <input type="text"  id="uname"><br><br>
+    <input type="checkbox"  id="agree"> I agree to the terms <br><br>
+    <input type="submit" value="submit">
+   </form>
+   <script>
+        function validatecheckbox(){
+            var a = document.getElementById('uname').value;
+            var b = document.getElementById('agree');
+            
+            if(a =="" || !b.checked){
+                alert('Fill up All Fields with Checkbox');
+            }else{
+                window.alert("Form Submited")
+            }
+        }
+    </script>
+
+</body>
+</html>

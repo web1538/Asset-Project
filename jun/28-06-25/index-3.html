@@ -1,0 +1,85 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <!-- <style type="text/css">
+        input{
+            width: 75%;
+            padding: 10px;
+            margin-left: 25%;
+            
+        }
+        label{
+            margin-left: 25%;
+        }
+        textarea{
+            margin-left: 25%;
+        }
+    </style> -->
+</head>
+<body>
+   <!-- <form onsubmit="validatecheckbox()">
+     <label> Name</label><br>
+    <input id="username" type="text" placeholder="Enter your name"><br><br>
+    <label> Mobile Number</label><br>
+    <input id="usercell" type="text" placeholder="Enter your cell"><br><br>
+    <label> Email</label><br>
+    <input id="useremail" type="text" placeholder="Enter your email"><br><br>
+    <label> your information</label><br>
+  <textarea id="exampleFormControlTextarea1" ></textarea><br><br>
+  <label> Remember me</label>
+  <input type="checkbox" id="checkbox"><br><br>
+
+    <button type="submit">Click</button>
+   </form>
+
+    <script> 
+
+        function validatecheckbox(){
+            var a = document.getElementById('username').value.trim();
+            var b = document.getElementById('usercell').value.trim();
+            var c = document.getElementById('useremail').value.trim();
+            var d = document.getElementById('exampleFormControlTextarea1').value.trim();
+            var e = document.getElementById('checkbox').value.trim();
+            if( a == "" || b =="" || c =="" || d =="" || e =="" ){
+                window.alert('Invalid input');
+            }else{
+                window.alert('success input');
+            }
+        }
+    </script> -->
+
+
+   <h1><span id="date"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span id="time"></span></h1>
+   <form onsubmit="validatecheckbox()">
+    <label for=""> Name:</label>
+    <input type="text"  id="uname"><br><br>
+    <label for="">password</label>
+    <input type="password"  id="agree">  <br><br>
+    <input type="checkbox" name="" id="checkbox">
+    <input type="submit" value="submit">
+   </form>
+   <script>
+        function validatecheckbox(){
+            var a = document.getElementById('uname').value;
+            var b = document.getElementById('agree').value;
+            
+            if(a =="" || b =="" ||!c.checkd){
+                alert('Fill up All Fields with Checkbox');
+            }else{
+                window.alert("Form Submited")
+            }
+        }
+
+        document.getElementById('date').innerHTML = new Date().toLocaleDateString();
+
+        setInterval(() =>
+        document.getElementById('time').innerHTML = new Date().toLocaleTimeString())
+    </script>
+
+
+</body>
+</html>

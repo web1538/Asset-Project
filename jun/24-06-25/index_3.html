@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <input type="text" id="student_mark" placeholder="enter your mark">
+    <button onclick="test()">Check Result</button>
+    <h1> Your Result is:&nbsp;<span  id="result"></span></h1>
+
+    <script>
+        function test() {
+            var mark = parseInt(document.getElementById('student_mark').value);
+            
+
+            if (mark > 100 || mark < 0) {
+                document.getElementById('result').innerHTML = "Invalid Number"
+            }
+            else if (mark >= 80) {
+                document.getElementById('result').innerHTML = "A+"
+            }
+            else if (mark >= 70) {
+                document.getElementById('result').innerHTML = "A"
+            }
+            else if (mark >= 60) {
+                document.getElementById('result').innerHTML = "A-"
+            }
+            else if (mark >= 50) {
+                document.getElementById('result').innerHTML = "B"
+            }
+            else if (mark >= 40) {
+                document.getElementById('result').innerHTML = "C"
+            }
+            else if (mark >= 33) {
+                document.getElementById('result').innerHTML = "d"
+            }
+            else {
+                document.getElementById('result').innerHTML = "F"
+            }
+        }
+    </script>
+
+</body>
+
+</html>

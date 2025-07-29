@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+   
+
+    <div>
+        <h1 >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; Current Date and time</h1>
+        <h1 >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;   <span id="time"></span>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  <span id="Date"></span></h1>
+    </div>
+
+    <script>
+      
+        setInterval(() => 
+       document.getElementById('time').innerHTML = new Date().toLocaleTimeString())
+
+         document.getElementById('Date').innerHTML = new Date().toLocaleDateString();
+        
+        window.alert('Time & Date')
+    </script>
+</body>
+</body>
+</html>
